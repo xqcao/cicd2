@@ -1,0 +1,19 @@
+name: workflow demo
+on: 
+  push:
+    branches:
+      - main
+      - dev01
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out
+        uses: actions/checkout@v3
+      - name: start pp
+        run: |-
+          npm install
+          npm start
+      - name: check output
+        run: |-
+          curl localhost:3000
