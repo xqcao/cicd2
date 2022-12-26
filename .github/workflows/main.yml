@@ -10,10 +10,15 @@ jobs:
     steps:
       - name: check out
         uses: actions/checkout@v3
-      - name: start pp
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '12.x'
+      - name: install decs
         run: |-
           npm install
-          npm start
+      - name: start server
+        run: npm start
       - name: check output
         run: |-
-          curl localhost:3000
+          curl http://localhost:3000
