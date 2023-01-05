@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/helloreact/static/css/main.46c7d540.css",
-    "main.js": "/helloreact/static/js/main.5d8010df.js",
-    "index.html": "/helloreact/index.html",
-    "main.46c7d540.css.map": "/helloreact/static/css/main.46c7d540.css.map",
-    "main.5d8010df.js.map": "/helloreact/static/js/main.5d8010df.js.map"
+    "main.css": "/cicd2/static/css/main.46c7d540.css",
+    "main.js": "/cicd2/static/js/main.5d8010df.js",
+    "index.html": "/cicd2/index.html",
+    "main.46c7d540.css.map": "/cicd2/static/css/main.46c7d540.css.map",
+    "main.5d8010df.js.map": "/cicd2/static/js/main.5d8010df.js.map"
   },
   "entrypoints": [
     "static/css/main.46c7d540.css",
