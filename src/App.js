@@ -8,6 +8,13 @@ const routes = [
   { name: "user", path: "/user", component: Comps.User },
   { name: "counter", path: "/counter", component: Comps.Counter },
   { name: "Todos", path: "/todos", component: Comps.Todos },
+  { name: "UserDisplay", path: "/userdisplay", component: Comps.UserDisplay },
+  { name: "TodoDisplay", path: "/tododisplay", component: Comps.TodoDisplay },
+  {
+    name: "CommentDisplay",
+    path: "/commentdisplay",
+    component: Comps.CommentDisplay,
+  },
 ];
 function App() {
   return (
@@ -20,6 +27,7 @@ function App() {
           </li>
         ))}
       </ol>
+      <hr />
       <Routes>
         {routes.map((el, idx) => (
           <Route
